@@ -1,0 +1,332 @@
+*{margin:0px;padding:0px;}
+a{text-decoration:none;color:#aaa;}
+body{background:#eee;}
+#head{width:100%;height:80px;background:url('../images/01.jpg');}
+#head .btn{width:30px;height:28px;position:absolute;right:200px;top:20px;}
+#nav{width:100%;height:30px;background:#aaa;position:relative;}
+#nav .pos{width:90px;height:30px; position:absolute;left:250px;color:#ccc;}
+#nav .pos .show_pos{width:40px;height:30px;position:absolute;top:0px;left:50px;}
+#nav .pos .city{position:absolute;top:30px;width:200px;height:100px;display:none;}
+#nav .pos .city td.hover{color:red;}
+#nav ul{width:750px;height:30px;position:absolute;top:0px;right:50px;list-style-type:none;color:#ccc;}
+#nav ul li a{text-decoration:none;font-size:16px;color:#ccc;}
+#nav ul li{float:left;margin-right:15px;}
+#nav ul li.red a{color:red;}
+#nav ul li:hover>a{color:#a33;}
+#nav ul li .mydog{width:200px;height:100px;position:absolute;top:30px;display:none;}
+#nav ul li .mydog table td:hover a{color:#a33;}
+#nav ul li .client{width:200px;height:100px;position:absolute;top:30px;display:none;}
+#logo{position:absolute;top:80px;left:50px;width:190px;height:170px;border:1px solid #fff;background:#fff url('../images/logo.v2.png')}
+#search input{width:292px;height:30px;}
+#search{position:relative;top:30px;width:325px;height:32px;border:1px solid red;background:url('../images/search_box.png');margin:0px auto;cursor:pointer;}
+#car{position:absolute;top:140px;right:200px;width:100px;height:30px;border:1px solid #aaa;background:url("../images/scar.jpg") no-repeat 30px;font-size:14px;color:red;padding-left:60px;padding-top:10px; }
+#car .conter{position:absolute;top:10px;left:130px;;width:12px;height:15px;border-radius:8px;background:red;color;color:#fff;padding-left:4px;pdding-top:1px;}
+#search .click{width:30px height:32px;background:red;position:absolute;cursor:pointer;left:292px;top:0px;z-index:1;}
+#link1{position:absolute;top:180px;left:505px;width:385px;height:20px;}
+#link1 ul li{list-style-type:none;float:left;width:54px;margin-left:5px;}
+#link1 ul li:hover a{color:#F00;}
+#link1 ul li a{text-decoration:none;color:#aaa;font-size:12px;align:center;}
+#link2{position:absolute;left:350px;top:220px;width:620px;height:40px;}
+#link2 ul li{list-style-type:none;float:left;width:100px;height:40px;text-align:center;}
+#link2 ul li:hover a{color:#F00;}
+#link2 ul li a{text-decoration:none;color:black;font-size:20px;line-height:40px; font-family:'微软雅黑';}
+#content{ position:absolute;left:49px;top:250px;width:1250px;height:480px;}
+
+
+#l_nav .hide{position:absolute;top:0px;left:200px;z-index:2;width:1040px;height:470px;background:#efe;display:none;}
+#l_nav .hide .left{width:870px;height:470px;}
+#l_nav .hide .left .nav{width:870px;height:70px;}
+#l_nav .hide .left .nav ul{width:870px;height:50px;margin-top:20px;}
+#l_nav .hide .left .nav li{width:110px;height:40px;color:#aaa;font-size:16px;text-align:center;float:left;line-height:40px;background: #0C9;margin-right:20px;}
+#l_nav .hide .left p {position:relative;display:block;width:870px;height:30px;margin-top:20px;}
+#l_nav .hide .left p .s1{display:block;width:80px;height:30px;font-size:18px;text-align:center;line-height:30px;}
+#l_nav .hide .left p .s1 a{color:#333;}
+#l_nav .hide .left p .s2{position:absolute;top:0px;right:0px;display:block;width:800px;height:30px;font-size:14px;text-align:center;line-height:30px;}
+#l_nav .hide .rig{position:absolute;top:0px;right:0px;width:168px;height:500px;}
+#l_nav .hide .rig ul{width:168px;height:500px;list-style-type:none;}
+#l_nav .hide .rig ul li{width:168px;height:134px;margin-top:20px;}
+#l_nav .hide .rig ul li.img1{background:url(../images/hide1.jpg)}
+#l_nav .hide .rig ul li.img2{background:url(../images/hide2.jpg)}
+#l_nav .hide .rig ul li.img3{background:url(../images/hide3.jpg)}
+#l_nav{position:absolute;width:190px;height:480px;background:#666;}
+#l_nav ul{width:190px;height:480px;list-style-type:none;}
+#l_nav ul li{width:190px;height:30px;text-indent:20px;}
+#l_nav ul li:hover {background:#CCC;}
+#l_nav ul li a{color:#fff;text-decoration:none;}
+#center{position:absolute;top:10px;left:200px;width:730px;height:454px;border:1px solid black;overflow:hidden;}
+#center .pic{position:absolute;left:0px;width:3670px;height:454px;-moz-animation:play 20s  linear infinite;}
+@-moz-keyframes play{
+  from{left:0px;}
+  to{left:-2920px;}
+}
+#center .pic:hover{animation-play-state: paused;}
+
+#right{position:absolute;top:10px;right:20px;width:250px;height:464px;background:#fff;}
+#right .r_top{position:absolute;width:250px;height:100px;}
+#right .r_top .dog{width:68px;height:68px;border:4px solid #CF5;border-radius:34px;overflow:hidden;margin-top:12px;}
+#right .r_top .dog .dog-style{width:60px;height:60px;border:4px solid #fff;border-radius:30px;background:url(../images/no_login.jpg);}
+#right .r_top .login{position:absolute;right:15px;top:25px;width:150px;height:60px;}
+#right .r_top .login span{display:block;width:150px;height:30px;text-align:center;line-height:30px;font-size:14px;color:#aaa;}
+#right .r_top .login .btn{width:100px;height:30px;margin:0px auto;}
+#right .r_top .login .btn a{text-decoration:none;color:#aaa;font-size:14px;}
+#right .r_top .login .btn a:hover{color:#f45;}
+#right .r_center{position:absolute;top:100px;left:0px;width:250px;height:124px;border-top:1px solid #aaa;border-bottom:1px solid #aaa;}
+#right .r_center .nav{position:absolute;width:250px;height:20px;}
+#right .r_center .nav ul{position:absolute;width:250px;height:20px;list-style-type:none;}
+#right .r_center .nav ul li{float:left;width:80px;border-right:1px solid #aaa;display:block;text-align:center;margin-left:2px;}
+#right .r_center .nav ul li.hover{text-decoration:underline;color:red;}
+#right .r_center .content{position:absolute;top:30px;left:10px;width:230px;height:90px;}
+#right .r_center .content ul li{list-style-type:none;height:30px;width:230px;}
+#right .r_center .content ul li.red{color:#f45;}
+#right .r_bottom{position:absolute;top:233px;left:10px;width:233px;height:210px;}
+#right .r_bottom ul li{position:relative;width:57px;height:52px;border-right:1px solid #aaa;border-bottom:1px solid #aaa;list-style-type:none;float:left;}
+#right .r_bottom ul li p{position:absolute;font-size:12px;bottom:1px;left:3px;}
+#right .r_bottom ul li.li1{background:url(../images/point.png);}
+#right .r_bottom ul li.li2{background:url(../images/point.png); background-position:-57px 0px;}
+#right .r_bottom ul li.li3{background:url(../images/point.png); background-position:-114px 0px;}
+#right .r_bottom ul li.li4{background:url(../images/point.png); background-position:-180px 0px;}
+#right .r_bottom ul li.li5{background:url(../images/point.png); background-position:0px -63px;}
+#right .r_bottom ul li.li6{background:url(../images/point.png); background-position:-57px -63px;}
+#right .r_bottom ul li.li7{background:url(../images/point.png); background-position:-114px -63px;}
+#right .r_bottom ul li.li8{background:url(../images/point.png); background-position:-180px -63px;}
+#right .r_bottom ul li.li9{background:url(../images/point.png); background-position:0px -130px;}
+#right .r_bottom ul li.li10{background:url(../images/point.png); background-position:-57px -130px;}
+#right .r_bottom ul li.li11{background:url(../images/point.png); background-position:-114px -130px;}
+#right .r_bottom ul li.li12{background:url(../images/point.png); background-position:-180px -130px;}
+#right .r_bottom ul li.li13{background:url(../images/point.png); background-position:0px -220px;}
+#right .r_bottom ul li.li14{background:url(../images/point.png); background-position:-57px -220px;}
+#right .r_bottom ul li.li15{background:url(../images/point.png); background-position:-114px -220px;}
+#right .r_bottom ul li.li16{background:url(../images/point.png); background-position:-180px -220px;}
+#kill{position:absolute;top:770px;left:49px;width:1250px;height:280px;}
+#kill .k_head{position:absolute;width:1250px;height:60px;background:#F13;border-radius:10px 10px 5px 5px;}
+#kill .k_head .word{position:absolute;left:50px;top:10px;width:310px;height:40px;font-size:36px;color:#ccc;line-height:40px;text-indent:10px;}
+#kill .k_head .word span{font-size:16px;}
+#kill .k_head .interval{position:absolute;right:10px;top:10px;width:500px;height:40px;}
+#kill .k_head .interval span.s1{position:absolute;bottom:10px;color:#ccc;font-size:16px;}
+#kill .k_head .interval span.s2{position:absolute;bottom:10px;right:150px;color:#ccc;font-size:16px;}
+#kill .k_head .interval .time{position:absolute;top:0px;left:80px;width:180px;height:40px;}
+#kill .k_head .interval .time .t1,.t2,.t3{width:40px;height:40px;background:#880;float:left;color:#fff;font-size:36px;margin-right:5px;}
+#kill .k_head .interval .time .t{width:10px;height:40px;float:left;margin-right:5px;}
+#kill .k_head .interval .time .t div{width:10px;height:10px;border-radius:5px;background:#fff;margin-top:5px;}   
+#kill .k_body{position:absolute;top:50px;width:1250px;height:230px;background:#fff;;overflow:hidden;}
+#kill .k_body .container{ position:absolute;top:10px;width:3000px;height:210px;}
+#kill .k_body .container ul li{width:155px;height:210px;border-right:1px solid #aaa;list-style-type:none;text-indent:10px;color:red;float:left;} 
+#kill .k_body .container ul li div{position:relative;width:110px;height:110px;}
+#kill .k_body .container ul li a{color:#aaa;text-decoration:none;font-size:12px;}
+#kill .k_body .container ul li a:hover{color:red;}
+#kill .k_body .left{position:absolute;top:90px;left:10px;width:15px;height:30px;background:#fff url(../images/left.png) no-repeat center center;border:1px solid #ddd;display:none}
+#kill .k_body .right{position:absolute;top:90px;right:10px;width:15px;height:30px;background:#fff url(../images/right.png) no-repeat center center;border:1px solid #ddd;display:none;}
+#toolbar{position:fixed;top:250px;right:0px;width:40px;height:240px;background:#ccc;}
+#toolbar ul li{position:relative;width:40px;height:35px;margin-bottom:5px;list-style-type:none;}
+#toolbar ul li .img{margin:5px ;width:20px;height:20px;}
+#toolbar ul li .hide{position:absolute;top:0px;right:-80px;width:80px;height:35px;color:#fff;background:#f44;text-align:center;line-height:35px;}
+#toolbar ul li .li1{background:url(../images/ren1.png);}
+#toolbar ul li .li2{background:url(../images/s_car.png);}
+#toolbar ul li .li3{background:url(../images/love.png);}
+#toolbar ul li .li4{background:url(../images/lilu.png);}
+#toolbar ul li .li5{background:url(../images/jitou.jpg);}
+#toolbar ul li .li6{background:url(../images/love.png);}
+#struct{position:absolute;top:1100px;width:1250px;height:2500px;left:49px;}
+#struct .life{position:absolute;width:1250px;height:600px;}
+#struct .life p{width:1250px;height:50px;font-size:36px;color:#555;line-height:50px;text-align:center;}
+#struct .life .life-left{width:830px;height:500px;}
+#struct .life .life-left li{position:relative;list-style-type:none;width:400px;height:170px;float:left;margin-right:10px;margin-bottom:10px;overflow:hidden;}
+#struct .life .life-left li .img{width:400px;height:170px;}
+#struct .life .life-left li .li1{background:url(../images/life1.jpg);position:relative;left:0px;}
+#struct .life .life-left li .word{position:absolute;top:0px;left:0px;width:140px;height:170px;background:#3F9;}
+#struct .life .life-left li .word .top{position:absolute;top:40px;left:20px;width:110px;height:50px;font-size:22px;color:#999;line-height:50px;border-top:3px solid #fff;border-bottom:3px solid #fff;}
+#struct .life .life-left li .word .bottom{position:absolute;bottom:10px;left:20px;width:110px;height:50px;font-size:14px;color:#999;}
+#struct .life .life-left li .li2{background:url(../images/life2.jpg);position:relative;left:0px;}
+#struct .life .life-left li .word2{background: #FF0;}
+#struct .life .life-left li .li3{background:url(../images/life3.jpg);position:relative;left:0px;}
+#struct .life .life-left li .word3{background: #CC3;}
+#struct .life .life-left li .li4{background:url(../images/life4.jpg);position:relative;left:0px;}
+#struct .life .life-left li .word4{background: #663;}
+#struct .life .life-left li .li5{background:url(../images/life5.jpg);position:relative;left:0px;}
+#struct .life .life-left li .word5{background: #603;}
+#struct .life .life-left li .li6{background:url(../images/life6.jpg);position:relative;left:0px;}
+#struct .life .life-left li .word6{background:#00F;}
+#struct .life .life-right{position:absolute;top:50px;right:0px;width:420px;height:520px;}
+#struct .life .life-right .video{width:400px;height:350px;background:#069;}
+#struct .life .life-right .img{width:400px;height:163px;margin-top:10px;}
+#struct .life .life-right .img li{list-style-type:none;width:180px;height:153px;overflow:hidden;}
+#struct .life .life-right .img li.li1{float:left}
+#struct .life .life-right .img li.li2{float:right;}
+#struct .life .life-right .img .show1{position:relative;left:0px;width:180px;height:153px;background:url(../images/slife1.jpg)}
+#struct .life .life-right .img .show2{position:relative;left:0px;width:180px;height:153px;background:url(../images/slife2.jpg)}
+#struct .life .life-right .img .word{position:absolute;bottom:0px;width:180px;height:80px;}
+#struct .life .life-right .img .word1{background:rgba(102,0,204,0.5)}
+#struct .life .life-right .img .word2{background:rgba(10,190,10,0.5)}
+#struct .life .life-right .img .word .top{position:absolute;left:20px;top:5px;width:120px;height:30px;border-top:3px solid #fff;border-bottom:3px solid #fff;font-size:18px;color:#ccc;text-align:center;}
+#struct .life .life-right .img .word .bottom{position:absolute;top:40px;left:20px;width:120px;height:20px;font-size:14px;color:#ccc;text-align:center;}
+#struct .shop{position:absolute;top:640px;width:1250px;height:600px;}
+#struct .shop p{width:1250px;height:50px;font-size:36px;color:#555;line-height:50px;text-align:center;}
+#struct .shop .shop_left{width:590px;height:550px;float:left;background:#fff;}
+#struct .shop .shop_left .nav{position:relative;width:590px;height:55px;background:#909;}
+#struct .shop .shop_left .nav .word{position:absolute;top:10px;left:20px;width:100px;height:30px;color:#aaa;line-height:30px;font-size:24px;}
+#struct .shop .shop_left .nav .word .code{position:absolute;top:2px;right:5px;width:25px;height:25px;background:url(../images/scode.png);}
+#struct .shop .shop_left .nav .word .bigcode{position:absolute;top:45px;right:5px;width:80px;height:80px;background:url(../images/bigcode.png);display:none;z-index:2;border:1px solid #fff;}
+#struct .shop .shop_left .nav ul{position:absolute;top:10px;right:20px;width:370px;height:30px;list-style-type:none;}
+#struct .shop .shop_left .nav ul li{width:55px;height:30px;float:left;margin-right:5px;background: #93F;font-size:14px;line-height:30px;text-align:center;color:#aaa;}
+#struct .shop .shop_left .nav ul li:hover{border:1px solid #fff;}
+#struct .shop .shop_left .container{width:590px;height:490px;margin-top:30px;}
+#struct .shop .shop_left .container .top{position:relative;width:590px;height:260px;}
+#struct .shop .shop_left .container .top .left{width:193px;height:260px;background:url(../images/shop1.jpg);}
+#struct .shop .shop_left .container .top ul{position:absolute;top:0px;right:0px;width:400px;height:260px;list-style-type:none;}
+#struct .shop .shop_left .container .top ul li{position:relative;width:180px;height:130px;float:left;margin-left:10px;}
+#struct .shop .shop_left .container .top ul li .img{position:absolute;right:0px;top:20px;width:100px;height:100px;background:url(../images/shop2.jpg);}
+#struct .shop .shop_left .container .top ul li .img2{background:url(../images/shop3.jpg);}
+#struct .shop .shop_left .container .top ul li .img3{background:url(../images/shop4.jpg);}
+#struct .shop .shop_left .container .top ul li .img4{background:url(../images/shop5.jpg);}
+#struct .shop .shop_left .container .top ul li .word{position:absolute;left:0px;top:20px;width:80px;height:100px;color:#aaa;font-size:18px;}
+#struct .shop .shop_left .container .bottom ul{width:590px;height:130px;margin-top:30px;list-style-type:none;}
+#struct .shop .shop_left .container .bottom ul li{width:193px;height:130px;float:left;margin-right:3px;}
+#struct .shop .shop_left .container .bottom ul li.li1{background:url(../images/shop11.jpg);}
+#struct .shop .shop_left .container .bottom ul li.li2{background:url(../images/shop12.jpg);}
+#struct .shop .shop_left .container .bottom ul li.li3{background:url(../images/shop13.jpg);}
+#struct .shop .shop_right{width:590px;height:550px;float:right;background:#fff;}
+#struct .shop .shop_right .nav{position:relative;width:590px;height:55px;background:#909;}
+#struct .shop .shop_right .nav .word{position:absolute;top:10px;left:20px;width:100px;height:30px;color:#aaa;line-height:30px;font-size:24px;}
+#struct .shop .shop_right .nav .word .code{position:absolute;top:2px;right:5px;width:25px;height:25px;background:url(../images/scode.png);}
+#struct .shop .shop_right .nav .word .bigcode{position:absolute;top:45px;right:5px;width:80px;height:80px;background:url(../images/bigcode.png);display:none;border:1px solid #fff;z-index:2;}
+#struct .shop .shop_right .nav ul{position:absolute;top:10px;right:20px;width:370px;height:30px;list-style-type:none;}
+#struct .shop .shop_right .nav ul li{width:55px;height:30px;float:left;margin-right:5px;background: #93F;font-size:14px;line-height:30px;text-align:center;color:#aaa;}
+#struct .shop .shop_right .nav ul li:hover{border:1px solid #fff;}
+#struct .shop .shop_right .container{width:590px;height:490px;margin-top:30px;}
+#struct .shop .shop_right .container .top{position:relative;width:590px;height:260px;}
+#struct .shop .shop_right .container .top .left{width:193px;height:260px;background:url(../images/shop6.jpg);}
+#struct .shop .shop_right .container .top ul{position:absolute;top:0px;right:0px;width:400px;height:260px;list-style-type:none;}
+#struct .shop .shop_right .container .top ul li{position:relative;width:180px;height:130px;float:left;margin-left:10px;}
+#struct .shop .shop_right .container .top ul li .img{position:absolute;right:0px;top:20px;width:100px;height:100px;background:url(../images/shop7.jpg);}
+#struct .shop .shop_right .container .top ul li .img2{background:url(../images/shop8.jpg);}
+#struct .shop .shop_right .container .top ul li .img3{background:url(../images/shop9.jpg);}
+#struct .shop .shop_right .container .top ul li .img4{background:url(../images/shop10.jpg);}
+#struct .shop .shop_right .container .top ul li .word{position:absolute;left:0px;top:20px;width:80px;height:100px;color:#aaa;font-size:18px;}
+#struct .shop .shop_right .container .bottom ul{width:590px;height:130px;margin-top:30px;list-style-type:none;}
+#struct .shop .shop_right .container .bottom ul li{width:193px;height:130px;float:left;margin-right:3px;}
+#struct .shop .shop_right .container .bottom ul li.li1{background:url(../images/shop14.jpg);}
+#struct .shop .shop_right .container .bottom ul li.li2{background:url(../images/shop15.jpg);}
+#struct .shop .shop_right .container .bottom ul li.li3{background:url(../images/shop16.jpg);}
+
+#struct .play{position:absolute;top:1280px;width:1250px;height:600px;}
+#struct .play p{width:1250px;height:50px;font-size:36px;color:#555;line-height:50px;text-align:center;}
+#struct .play .play_left{width:590px;height:550px;float:left;background:#fff;}
+#struct .play .play_left .nav{position:relative;width:590px;height:55px;background: #3F9;}
+#struct .play .play_left .nav .word{position:absolute;top:10px;left:20px;width:100px;height:30px;color:#aaa;line-height:30px;font-size:24px;}
+#struct .play .play_left .nav .word .code{position:absolute;top:2px;right:5px;width:25px;height:25px;background:url(../images/scode.png);}
+#struct .play .play_left .nav .word .bigcode{position:absolute;top:45px;right:5px;width:80px;height:80px;background:url(../images/bigcode.png);display:none;z-index:2;border:1px solid #fff;}
+#struct .play .play_left .nav ul{position:absolute;top:10px;right:20px;width:370px;height:30px;list-style-type:none;}
+#struct .play .play_left .nav ul li{width:55px;height:30px;float:left;margin-right:5px;background: #369;font-size:14px;line-height:30px;text-align:center;color:#aaa;}
+#struct .play .play_left .nav ul li:hover{border:1px solid #fff;}
+#struct .play .play_left .container{width:590px;height:490px;margin-top:30px;}
+#struct .play .play_left .container .top{position:relative;width:590px;height:260px;}
+#struct .play .play_left .container .top .left{width:193px;height:260px;background:url(../images/play1.jpg);}
+#struct .play .play_left .container .top ul{position:absolute;top:0px;right:0px;width:400px;height:260px;list-style-type:none;}
+#struct .play .play_left .container .top ul li{position:relative;width:180px;height:130px;float:left;margin-left:10px;}
+#struct .play .play_left .container .top ul li .img{position:absolute;right:0px;top:20px;width:100px;height:100px;background:url(../images/play2.jpg);}
+#struct .play .play_left .container .top ul li .img2{background:url(../images/play3.jpg);}
+#struct .play .play_left .container .top ul li .img3{background:url(../images/play4.jpg);}
+#struct .play .play_left .container .top ul li .img4{background:url(../images/play5.jpg);}
+#struct .play .play_left .container .top ul li .word{position:absolute;left:0px;top:20px;width:80px;height:100px;color:#aaa;font-size:18px;}
+#struct .play .play_left .container .bottom ul{width:590px;height:130px;margin-top:30px;list-style-type:none;}
+#struct .play .play_left .container .bottom ul li{width:193px;height:130px;float:left;margin-right:3px;}
+#struct .play .play_left .container .bottom ul li.li1{background:url(../images/play11.jpg);}
+#struct .play .play_left .container .bottom ul li.li2{background:url(../images/play12.jpg);}
+#struct .play .play_left .container .bottom ul li.li3{background:url(../images/play13.jpg);}
+#struct .play .play_right{width:590px;height:550px;float:right;background:#fff;}
+#struct .play .play_right .nav{position:relative;width:590px;height:55px;background: #3F9;}
+#struct .play .play_right .nav .word{position:absolute;top:10px;left:20px;width:100px;height:30px;color:#aaa;line-height:30px;font-size:24px;}
+#struct .play .play_right .nav .word .code{position:absolute;top:2px;right:5px;width:25px;height:25px;background:url(../images/scode.png);}
+#struct .play .play_right .nav .word .bigcode{position:absolute;top:45px;right:5px;width:80px;height:80px;background:url(../images/bigcode.png);display:none;border:1px solid #fff;z-index:2;}
+#struct .play .play_right .nav ul{position:absolute;top:10px;right:20px;width:370px;height:30px;list-style-type:none;}
+#struct .play .play_right .nav ul li{width:55px;height:30px;float:left;margin-right:5px;background: #369;font-size:14px;line-height:30px;text-align:center;color:#aaa;}
+#struct .play .play_right .nav ul li:hover{border:1px solid #fff;}
+#struct .play .play_right .container{width:590px;height:490px;margin-top:30px;}
+#struct .play .play_right .container .top{position:relative;width:590px;height:260px;}
+#struct .play .play_right .container .top .left{width:193px;height:260px;background:url(../images/play6.jpg);}
+#struct .play .play_right .container .top ul{position:absolute;top:0px;right:0px;width:400px;height:260px;list-style-type:none;}
+#struct .play .play_right .container .top ul li{position:relative;width:180px;height:130px;float:left;margin-left:10px;}
+#struct .play .play_right .container .top ul li .img{position:absolute;right:0px;top:20px;width:100px;height:100px;background:url(../images/play7.jpg);}
+#struct .play .play_right .container .top ul li .img2{background:url(../images/play8.jpg);}
+#struct .play .play_right .container .top ul li .img3{background:url(../images/play9.jpg);}
+#struct .play .play_right .container .top ul li .img4{background:url(../images/play10.jpg);}
+#struct .play .play_right .container .top ul li .word{position:absolute;left:0px;top:20px;width:80px;height:100px;color:#aaa;font-size:18px;}
+#struct .play .play_right .container .bottom ul{width:590px;height:130px;margin-top:30px;list-style-type:none;}
+#struct .play .play_right .container .bottom ul li{width:193px;height:130px;float:left;margin-right:3px;}
+#struct .play .play_right .container .bottom ul li.li1{background:url(../images/play14.jpg);}
+#struct .play .play_right .container .bottom ul li.li2{background:url(../images/play15.jpg);}
+#struct .play .play_right .container .bottom ul li.li3{background:url(../images/play16.jpg);}
+#struct .eat{position:absolute;top:650px;width:1250px;height:600px;}
+#struct .eat p{width:1250px;height:50px;font-size:36px;color:#555;line-height:50px;text-align:center;}
+#struct .eat .nav{position:relative;width:1250px;height:55px;background:#FF0;}
+#struct .eat .nav .word{position:absolute;top:10px;left:50px;width:100px;height:30px;color:#aaa;line-height:30px;font-size:24px;}
+#struct .eat .nav .word .code{position:absolute;top:2px;right:5px;width:25px;height:25px;background:url(../images/scode.png);}
+#struct .eat .nav .word .bigcode{position:absolute;top:45px;right:5px;width:80px;height:80px;background:url(../images/bigcode.png);display:none;border:1px solid #fff;z-index:2;}
+#struct .eat .nav  ul{position:absolute;top:12px;right:30px;width:730px;height:30px;list-style-type:none;}
+#struct .eat .nav  ul li{float:left;width:55px;height:30px;margin-right:5px;font-size:12px;line-height:30px;text-align:center;background:#FC6;}
+#struct .eat .nav  ul li:hover{border:1px solid #fff;}
+#struct .eat .container{position:relative;margin-top:20px;width:1250px;height:400px;}
+#struct .eat .container .top {width:1250px;}
+#struct .eat .container .top ul{width:1250px ;height:260px;list-style-type:none;}
+#struct .eat .container .top ul li{position:relative;width:193px;height:260px;margin-right:10px;float:left;}
+#struct .eat .container .top ul li .img1{position:absolute;left:0px;width:193px;height:260px;background:url(../images/eat1.jpg)}
+#struct .eat .container .top ul li .img2{position:absolute;left:0px;width:193px;height:260px;background:url(../images/eat6.jpg)}
+#struct .eat .container .top ul li .img3{position:absolute;left:0px;width:193px;height:260px;background:url(../images/eat7.jpg)}
+#struct .eat .container .top ul li.li2{width:400px;}
+#struct .eat .container .top ul li.li2 ul{width:400px;height:260px;}
+
+#struct .eat .container .top ul li.li2 ul li{width:180px;height:120px;margin-right:10px;margin-bottom:5px;background:#fff;}
+#struct .eat .container .top ul li.li2 ul li .word{width:70px;height:100px;font-size:18px;color:#aaa;margin-top:5px;}
+#struct .eat .container .top ul li.li2 ul li .pic{position:absolute;right:0px;top:5px;width:100px;height:100px;}
+#struct .eat .container .top ul li.li2 ul li .pic1{background:url(../images/eat2.jpg)}
+#struct .eat .container .top ul li.li2 ul li .pic2{background:url(../images/eat3.jpg)}
+#struct .eat .container .top ul li.li2 ul li .pic3{background:url(../images/eat4.jpg)}
+#struct .eat .container .top ul li.li2 ul li .pic4{background:url(../images/eat5.jpg)}
+#struct .eat .container .top ul li.li3{width:193px;height:260px;background:#fff;}
+#struct .eat .container .top ul li.li3 .li_top{position:absolute;top:0px;width:193px;height:120px;}
+#struct .eat .container .top ul li.li3 .li_top .word{width:80px;height:100px;color:#aaa;font-size:18px;margin-top:10px;}
+#struct .eat .container .top ul li.li3 .li_top .pic1{position:absolute;right:0px;top:5px;width:100px;height:100px;background:url(../images/eat8.jpg);}
+
+#struct .eat .container .top ul li.li3 .li_bottom{position:absolute;bottom:0px;width:193px;height:120px;}
+#struct .eat .container .top ul li.li3 .li_bottom .word{width:80px;height:100px;color:#aaa;font-size:18px;margin-top:10px;}
+#struct .eat .container .top ul li.li3 .li_bottom .pic2{position:absolute;right:0px;top:5px;width:100px;height:100px;background:url(../images/eat9.jpg);}
+#struct .eat .container .bottom{margin-top:30px;width:1250px;height:130px;}
+#struct .eat .container .bottom ul li{position:relative;width:193px;height:130px;list-style-type:none;margin-right:10px;float:left;}
+#struct .eat .container .bottom ul li .li1{position:absolute;left:0px;width:193px;height:130px;background:url(../images/eat11.jpg)}
+#struct .eat .container .bottom ul li .li2{position:absolute;left:0px;width:193px;height:130px;background:url(../images/eat12.jpg)}
+#struct .eat .container .bottom ul li .li3{position:absolute;left:0px;width:193px;height:130px;background:url(../images/eat13.jpg)}
+#struct .eat .container .bottom ul li .li4{position:absolute;left:0px;width:193px;height:130px;background:url(../images/eat14.jpg)}
+#struct .eat .container .bottom ul li .li5{position:absolute;left:0px;width:193px;height:130px;background:url(../images/eat15.jpg)}
+#struct .eat .container .bottom ul li .li6{position:absolute;left:0px;width:193px;height:130px;background:url(../images/eat16.jpg)}
+#sofa{position:absolute;top:2550px;left:15px;width:1188px;height:100px;}
+#sofa ul{width:1250px;height:100px;list-style-type:none;}
+#sofa ul li{width:396px;height:100px;float:left;}
+#sofa ul li.s1{background:url(../images/sofa1.jpg);}
+#sofa ul li.s2{background:url(../images/sofa2.jpg);}
+#sofa ul li.s3{background:url(../images/sofa3.jpg);}
+#footer{position:absolute;top:2700px;width:1250px;height:500px;}
+#footer .f-top{width:1250px;height:100px;background:#ccc;border-bottom:1px solid #ccc;}
+#footer .f-top ul{width:1250px;height:100px;list-style-type:none;}
+#footer .f-top li{position:relative;width:300px;height:100px;float:left;}
+#footer .f-top li .img{position:absolute;left:50px;top:25px;width:36px;height:43px;}
+#footer .f-top li span{position:absolute;left:90px;top:25px;display:block;width:200px;height:40px;font-size:22px;line-height:40px;}
+#footer .f-top li .img1{background:url(../images/foot.png);}
+#footer .f-top li .img2{background:url(../images/foot.png);background-position:0px -43px;}
+#footer .f-top li .img3{background:url(../images/foot.png);background-position:0px -86px;}
+#footer .f-top li .img4{background:url(../images/foot.png);background-position:0px -129px;}
+#footer .f-body{position:relative;width:1250px;height:200px;border-bottom:1px solid #ccc;}
+#footer .f-body>ul{width:1000px;height:200px;}
+#footer .f-body>ul>li{width:200px;height:200px;list-style-type:none;float:left;}
+#footer .f-body ul>li .small{width:200px;height:200px;list-style-type:none;}
+#footer .f-body ul>li .small li{width:200px;height:30px;text-align:center;line-height:30px;}
+#footer .f-body ul>li .small li.big a{font-size:18px;color: #000;}
+#footer .f-body .bg{position:absolute;right:25px;top:25px;width:200px;height:150px;background:url(../images/chick.png)}
+#footer .f-body .bg p{width:200px;height:20px;color:#000;font-size:20px;text-align:center;}
+#footer .f-body .bg span{display:block;width:200px;height:100px;color:#aaa;font-size:14px;margin-top:20px;}
+#footer .f-body .bg a{margin-left:90px;font-size:18px;color:#888;}
+#footer .f-bottom{width:1250px;height:200px;}
+#footer .f-bottom .p1{width:1250px;height:30px;font-size:14px;text-align:center;line-height:30px;}
+#footer .f-bottom .p2{width:1250px;height:30px;font-size:12px;text-align:center;line-height:30px;}
+#floor{position:fixed;left:0px;top:50px;width:30px;height:500px;display:none}
+#floor ul li{width:30px;height:60px;background:#aaa;color:#ddd;font-size:12px;border-bottom:1px solid #ddd;text-align:center;padding-top:40px;}
+#floor ul li.red{background:red;}

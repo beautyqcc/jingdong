@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>仿京东</title>
+  <link rel='stylesheet' type='text/css' href='css/style.css'>
+  <style>
+   #head{width:100%;height:80px;background:url('../images/01.jpg');}
+  </style>
+ </head>
+ <body>
+ <!--head开始-->
+ <div id='head'>
+  <div class='btn'><img src='images/close.jpg'/></div>
+ </div>
+ <!--head结束-->
+ <!--导航开始-->
+ <div id='nav'>
+    <!--定位开始-->
+   <div class='pos'>定位:
+     <div class='show_pos'>南昌</div>
+	 <div class='city'>
+	   <table cellspacing='10px'>
+	     <tr>
+		   <td class='hover'>南昌</td>
+		   <td>九江</td>
+		   <td>赣州</td>
+		   <td>吉安</td>
+		 </tr>
+		 <tr>
+		   <td>北京</td>
+		   <td>上海</td>
+		   <td>广州</td>
+		   <td>武汉</td>
+		 </tr>
+		 <tr>
+		   <td>长沙</td>
+		   <td>杭州</td>
+		   <td>福州</td>
+		   <td>晋江</td>
+		 </tr>
+	   </table>
+	 </div>
+   </div>
+   <!--定位结束-->
+   <ul>
+     <li><a href='#'>你好，请登录</a></li>
+	 <li class='red'><a href='#'>免费注册</a></li>
+	 <li><a href='#'>我的订单</a></li>
+	 <li><a href='#'>我的京东</a>
+	    <div class='mydog'>
+		  <table cellspacing='10px'>
+		    <tr>
+			  <td><a>待处理订单</a></td>
+			  <td><a>消息</a></td>
+			</tr>
+			<tr>
+			  <td><a>降价商品</a></td>
+			  <td><a>我的关注</a></td>
+			</tr>
+			<tr>
+			  <td><a>退货</a></td>
+			  <td><a>我的问答</a></td>
+			</tr>
+		  </table>
+		</div>
+	 </li>
+	 <li><a href='#'>京东会员</a></li>
+	 <li><a href='#'>企业采购</a></li>
+	 <li>客户服务
+	   <div class='client'>
+	     <table cellspacing='10px'>
+		    <tr><td colspan='2'>客户</td></tr>
+		    <tr>
+			  <td><a>待处理订单</a></td>
+			  <td><a>消息</a></td>
+			</tr>
+			<tr>
+			  <td><a>降价商品</a></td>
+			  <td><a>我的关注</a></td>
+			</tr>
+			<tr>
+			  <td><a>退货</a></td>
+			  <td><a>我的问答</a></td>
+			</tr>
+		  </table>
+	   </div>
+	 </li>
+	 <li>网站导航
+	   <div class='client'>
+	     <table cellspacing='10px'>
+		    <tr><td colspan='2'>客户</td></tr>
+		    <tr>
+			  <td><a>待处理订单</a></td>
+			  <td><a>消息</a></td>
+			</tr>
+			<tr>
+			  <td><a>降价商品</a></td>
+			  <td><a>我的关注</a></td>
+			</tr>
+			<tr>
+			  <td><a>退货</a></td>
+			  <td><a>我的问答</a></td>
+			</tr>
+		  </table>
+	   </div>
+	 </li>
+	 <li>手机京东
+	   <div class='client'>
+	     <table cellspacing='10px'>
+		    <tr><td colspan='2'>客户</td></tr>
+		    <tr>
+			  <td><a>待处理订单</a></td>
+			  <td><a>消息</a></td>
+			</tr>
+			<tr>
+			  <td><a>降价商品</a></td>
+			  <td><a>我的关注</a></td>
+			</tr>
+			<tr>
+			  <td><a>退货</a></td>
+			  <td><a>我的问答</a></td>
+			</tr>
+		  </table>
+	   </div>
+	 </li>
+   </ul>
+ </div>
+ <!--导航结束-->
+ </body>
+</html>
